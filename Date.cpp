@@ -29,7 +29,7 @@ public:
 	}
 	void setYear() {
 		if(this->year < 1450 || this->year > 2022) {
-			cout << "Year " << this->year << " is sinvalid" << endl;
+			cout << "Year " << this->year << " is invalid" << endl;
 			this->year = 2022;
 		}
 
